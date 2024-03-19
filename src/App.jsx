@@ -1,11 +1,11 @@
-import DaisyNav from "./components/Navbar/DaisyNav";
 import Navbar from "./components/Navbar/Navbar";
+import PriceOptions from "./components/Price/PriceOptions";
 
 function App() {
   return (
     <>
-      {/* <DaisyNav></DaisyNav> */}
       <Navbar></Navbar>
+      <PriceOptions></PriceOptions>
     </>
   );
 }
